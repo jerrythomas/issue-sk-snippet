@@ -4,6 +4,6 @@
 
 {#snippet listItems(items)}
   {#each items as item, index}
-    {item}
+    <li>{index}:{item}</li>
   {/each}
 {/snippet}
